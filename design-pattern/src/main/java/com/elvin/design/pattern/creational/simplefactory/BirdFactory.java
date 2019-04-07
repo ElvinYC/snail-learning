@@ -1,5 +1,8 @@
 package com.elvin.design.pattern.creational.simplefactory;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BirdFactory {
 
     public Bird getBird(Class c) {
