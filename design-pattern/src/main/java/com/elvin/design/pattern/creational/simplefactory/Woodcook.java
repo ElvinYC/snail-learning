@@ -3,9 +3,9 @@ package com.elvin.design.pattern.creational.simplefactory;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class woodcook extends Bird {
+public class Woodcook extends Bird {
     @Override
     public void fly() {
-        log.info("woodcook fly slow...");
+        log.info("Woodcook fly slow...");
     }
 }
