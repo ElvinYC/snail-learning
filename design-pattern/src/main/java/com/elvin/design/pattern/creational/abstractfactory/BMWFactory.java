@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class BMWFactory implements VehicleFactory{
     @Override
     public Wheel getWheel() {
-        return new BenzWheel();
+        return new BMWWheel();
     }
 
     @Override
